@@ -10,7 +10,7 @@ module.exports = defineConfig({
   reporter: "html",
   use: {
     headless: false,
-    baseURL: "https://jp.mercari.com/",
+    baseURL: "https://playwright.dev",
   },
   expect: {
     timeout: 15000,
